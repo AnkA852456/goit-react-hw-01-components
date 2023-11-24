@@ -1,0 +1,36 @@
+.item {
+  background-color: rgb(252, 236, 249);
+  display: flex;
+  border-color: rgb(227, 227, 231);
+  border-style: solid;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 20px 10px 10px 5px rgb(247, 246, 246);
+  align-items: center;
+}
+
+.status::before {
+  content: '__';
+  color: red;
+  background-color: red;
+  border-color: red;
+  border-style: solid;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+.avatar {
+  display: block;
+  width: 100px;
+  margin: 30px;
+}
+
+.name {
+  display: block;
+  font-family: serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+}
