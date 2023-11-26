@@ -1,5 +1,4 @@
 import css from '../Statistics/Statistics.module.css';
-// import { getRandomColor } from './colorFunction';
 
 export const Statistics = ({ title, stats }) => {
   return (
